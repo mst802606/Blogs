@@ -1,38 +1,36 @@
-About This Blog Series
+FocusBuddy Blog Series – Build Better Focus with Bash
 
-Welcome to my personal blog documenting my journey through systems programming, automation, and digital productivity as part of my course in Business and Computing.
+This blog series documents the journey behind FocusBuddy, a lightweight, ADHD-friendly terminal automation tool built in Bash to support structured focus and break sessions.
 
-This blog showcases four core topics—each one focused on helping me grow as a developer by improving how I understand and use my computing environment.
-
-
-
-1. Optimizing My Linux Shell with ZSH and Dotfiles
-
-I dive into customizing my terminal using ZSH and dotfiles to streamline development. From themes and aliases to Git-tracked config files, this post shows how small tweaks in your shell environment can lead to major productivity gains.
-
-
-2. Automating My Workflow with Bash and Cron
-
-I identify a repetitive task and automate it using Bash scripting and cron jobs. This post shares the full process—problem, script, automation setup, and impact—highlighting the value of personal automation.
+Over four posts, I explore the personal motivation, technical implementation, iterative improvements, and life lessons that shaped this tool—from a simple script into a daily support system.
 
 
 
-3. Monitoring and Managing My System Like a Pro
+1. Why I Built FocusBuddy
 
-I explore powerful Linux tools like htop, ps, and df to learn how to monitor and manage system performance. As developers, understanding system behavior helps in debugging, resource management, and building efficient software.
-
-
-
-4. Building My First Automation Tool in C
-
-My first full automation project in C—a simple command-line task tracker—helped me grasp memory management, file operations, and program design. This post documents the learning process, from concept to working CLI tool.
+“Designing for ADHD, not despite it.”
+I share my personal experiences with ADHD and explain how the mental burden of planning, task switching, and executive dysfunction led me to create a terminal-based tool that removes friction and builds structure. This post dives into user-first design thinking rooted in real-world struggles.
 
 
+2. How It Works
 
-What You’ll Learn
+“A simple Bash script with a powerful flow.”
+Here, I break down the architecture of FocusBuddy: task prompts, Pomodoro timers, auto-logging to CSV, and break reminders. You’ll see how standard shell tools (sleep, date, read, etc.) come together to automate a full productivity cycle.
 
-Through these blogs, I share practical tools, real code, and hands-on experiences that helped me:
-	•	Set up a modern Linux development environment
-	•	Automate real-life tasks
-	•	Understand my OS from the inside out
-	•	Build and share a working C project
+
+3. Improving FocusBuddy
+
+“Making small changes that make a big difference.”
+Once the base script worked, I began improving it with session customization, mood tracking, break suggestions, and even a GUI prototype using zenity. This post highlights how every feature came from a lived need and made the tool more ADHD-friendly and supportive.
+
+
+4. What I Learned
+
+“FocusBuddy taught me more than code.”
+The final post reflects on deeper insights: how automation reduces decision fatigue, why self-compassion is a design feature, and what it means to build tools that truly work with your brain. A closing chapter on personal growth through purposeful scripting.
+
+
+Read the Blogs
+
+Each blog is included in this repository under the /blogs folder and is available online through GitHub Pages. If you’re interested in ADHD-friendly productivity or terminal automation, this series is for you.
+
